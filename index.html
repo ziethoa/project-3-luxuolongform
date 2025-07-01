@@ -240,6 +240,15 @@
         </footer>
     </div>
     <script>
+        // load về đầu trang
+        if ('scrollRestoration' in history) {
+                history.scrollRestoration = 'manual';
+            }
+            window.addEventListener('load', () => {
+                window.scrollTo(0, 0);
+            });
+    </script>
+    <script>
         document.addEventListener('DOMContentLoaded', () => {
                 const slideElements = document.querySelectorAll('.section-title, .body-text, img, .questions');
                 const slideObserver = new IntersectionObserver((entries) => {
