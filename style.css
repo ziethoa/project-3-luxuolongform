@@ -125,4 +125,14 @@ img.visible {
     .section-11, .thankyou{
         padding: 0px 15px;
     }
+
+    .section-6{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section-6 img{
+        width: 100%;
+        padding: 0px 15px;
+    }
 }
